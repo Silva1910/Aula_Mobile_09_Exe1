@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/seniorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AtletaSeniorFragment">
+
+    <TextView
+        android:id="@+id/tvSenior"
+        android:layout_width="171dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="51dp"
+        android:text="@string/tvSenior"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/etNomeSenior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etNomeSenior"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginBottom="32dp"
+        android:ems="10"
+        android:hint="@string/etNome"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/etBairroSenior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSenior" />
+
+    <EditText
+        android:id="@+id/etBairroSenior"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginBottom="22dp"
+        android:ems="10"
+        android:hint="@string/etBairro"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/etDataSenior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNomeSenior" />
+
+    <EditText
+        android:id="@+id/etDataSenior"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginBottom="21dp"
+        android:ems="10"
+        android:hint="@string/etData"
+        android:inputType="date"
+        android:importantForAutofill="no"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/cbCardiaco"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etBairroSenior" />
+
+    <CheckBox
+        android:id="@+id/cbCardiaco"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginBottom="316dp"
+        android:text="@string/cbSenior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDataSenior" />
+
+    <Button
+        android:id="@+id/btnCadastrarS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="168dp"
+        android:text="@string/btnCadastrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

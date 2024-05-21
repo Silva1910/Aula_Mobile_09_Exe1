@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Aula_Mobile_09_Exe1</string>
+    <string name="juvenil">Atleta Juvenil</string>
+    <string name="senior">Atleta Senior</string>
+    <string name="outros"> Outros Atletas </string>
+
+
+    /** string para outros atletas  */
+
+    <string name="etAcademiaOutros">digite a academia</string>
+    <string name="etSegundoOutros">digite os segundos</string>
+    <string name="tvOutros">Outros Atletas</string>
+    <string name="btnCadastrar">cadastrar</string>
+    //
+
+
+    //generico
+
+    <string name="etData">digite data de nascimento</string>
+    <string name="etBairro">digite o bairro</string>
+    <string name="etNome">digite o nome </string>
+
+    // juvenil
+    <string name="etAnosJuvenil">digite os anos</string>
+    <string name="tvJuvenil"> Atletas Juvenis</string>
+
+
+    <string name="tvSenior"> Atletas Seniores</string>
+
+    <string name="cbSenior"> Problema Cardiaco</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
